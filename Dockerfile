@@ -34,4 +34,4 @@ ENV R_IP=
 # find options here https://github.com/wangyu-/udp2raw-tunnel/blob/master/doc/README.zh-cn.md#%E5%91%BD%E4%BB%A4%E9%80%89%E9%A1%B9
 # ENTRYPOINT ["udp2raw_amd64"]
 ENTRYPOINT [ "./script/start.sh" ]
-CMD ["udp2raw_amd64", "-s", "-l","0.0.0.0:1234", "--raw-mode", "faketcp", "-k", "passwd"]
+CMD ["udp2raw_amd64", "-s", "-l","0.0.0.0:4096", "--raw-mode", "faketcp", "-k", "ATotallyRandomPassword1490"]
